@@ -1,0 +1,13 @@
+{
+  "name": "mc-clan-banner",
+  "version": "1.0.0",
+  "description": "Renderiza banners de Minecraft con texturas reales en la web de clanes.",
+  "type": "module",
+  "scripts": {
+    "fetch-assets": "node scripts/fetch-assets.ts",
+    "build-web": "node scripts/build-demo.ts"
+  },
+  "engines": {
+    "node": ">=22.6"
+  }
+}
